@@ -1,4 +1,4 @@
-/* I wrote a query to identify the Italian cities and then i extracted the data
+/* Q1 : I wrote a query to identify the Italian cities and then i extracted the data
 for these cities by making an aggregation between the city_list and city_data tables */
 
 SELECT cd.year, cd.city, cd.avg_temp
@@ -7,3 +7,9 @@ JOIN city_list as cl
 ON cd.city = cl.city
 WHERE cl.country = 'Italy' AND cd.year >= 1750
 ORDER by year;
+
+
+/* Q2 : I extracted global data */
+
+SELECT *
+FROM global_data;
