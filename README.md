@@ -16,3 +16,7 @@ In this project, i analyzed the trend of the average temperature both on a globa
 - Make Observations
 
 ### Files used
+
+- global_data.csv
+
+- city_data.csv
